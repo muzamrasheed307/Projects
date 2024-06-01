@@ -1,0 +1,4761 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:18:56.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Creating new Api Credentials",
+        "description": "",
+        "id": "api-credentials;creating-new-api-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12527000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "request is sent to create Api credentials with web9, credentials, oAuth2, https, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "web9",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 53
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 66
+                },
+                {
+                  "val": "https",
+                  "offset": 74
+                },
+                {
+                  "val": "post",
+                  "offset": 81
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 87
+                },
+                {
+                  "val": "name1",
+                  "offset": 104
+                },
+                {
+                  "val": "value1",
+                  "offset": 111
+                },
+                {
+                  "val": "name2",
+                  "offset": 119
+                },
+                {
+                  "val": "value2",
+                  "offset": 129
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_create_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 441000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "response will contain a new credential Id",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_a_new_credential_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "response must have 200 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_must_have_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:09.499Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Creating new Api Credentials",
+        "description": "",
+        "id": "api-credentials;creating-new-api-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "request is sent to create Api credentials with webhook, credentials, oAuth2, https, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 56
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 69
+                },
+                {
+                  "val": "https",
+                  "offset": 77
+                },
+                {
+                  "val": "post",
+                  "offset": 84
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 90
+                },
+                {
+                  "val": "name1",
+                  "offset": 107
+                },
+                {
+                  "val": "value1",
+                  "offset": 114
+                },
+                {
+                  "val": "name2",
+                  "offset": 122
+                },
+                {
+                  "val": "value2",
+                  "offset": 132
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_create_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "response will contain a new credential Id",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_a_new_credential_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "response must have 409 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "409",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_must_have_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:09.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Creating new Api Credentials",
+        "description": "",
+        "id": "api-credentials;creating-new-api-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 229000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "request is sent to create Api credentials with webhook2, credentials, oAuth1, https, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook2",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth1",
+                  "offset": 70
+                },
+                {
+                  "val": "https",
+                  "offset": 78
+                },
+                {
+                  "val": "post",
+                  "offset": 85
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 91
+                },
+                {
+                  "val": "name1",
+                  "offset": 108
+                },
+                {
+                  "val": "value1",
+                  "offset": 115
+                },
+                {
+                  "val": "name2",
+                  "offset": 123
+                },
+                {
+                  "val": "value2",
+                  "offset": 133
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_create_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "response will contain a new credential Id",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_a_new_credential_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "response must have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_must_have_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:10.095Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Creating new Api Credentials",
+        "description": "",
+        "id": "api-credentials;creating-new-api-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "request is sent to create Api credentials with webhook1, credentials, oAuth2, http, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook1",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 70
+                },
+                {
+                  "val": "http",
+                  "offset": 78
+                },
+                {
+                  "val": "post",
+                  "offset": 84
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 90
+                },
+                {
+                  "val": "name1",
+                  "offset": 107
+                },
+                {
+                  "val": "value1",
+                  "offset": 114
+                },
+                {
+                  "val": "name2",
+                  "offset": 122
+                },
+                {
+                  "val": "value2",
+                  "offset": 132
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_create_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "response will contain a new credential Id",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_a_new_credential_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "response must have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_must_have_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:10.404Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Creating new Api Credentials",
+        "description": "",
+        "id": "api-credentials;creating-new-api-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "request is sent to create Api credentials with webhook1, credentials, oAuth2, https, put, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook1",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 70
+                },
+                {
+                  "val": "https",
+                  "offset": 78
+                },
+                {
+                  "val": "put",
+                  "offset": 85
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 90
+                },
+                {
+                  "val": "name1",
+                  "offset": 107
+                },
+                {
+                  "val": "value1",
+                  "offset": 114
+                },
+                {
+                  "val": "name2",
+                  "offset": 122
+                },
+                {
+                  "val": "value2",
+                  "offset": 132
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_create_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "response will contain a new credential Id",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_a_new_credential_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "response must have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_must_have_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:10.671Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Creating new Api Credentials",
+        "description": "",
+        "id": "api-credentials;creating-new-api-credentials;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "request is sent to create Api credentials with webhook1, credentials, oAuth2, https, post, applicationTEXT, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook1",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 70
+                },
+                {
+                  "val": "https",
+                  "offset": 78
+                },
+                {
+                  "val": "post",
+                  "offset": 85
+                },
+                {
+                  "val": "applicationTEXT",
+                  "offset": 91
+                },
+                {
+                  "val": "name1",
+                  "offset": 108
+                },
+                {
+                  "val": "value1",
+                  "offset": 115
+                },
+                {
+                  "val": "name2",
+                  "offset": 123
+                },
+                {
+                  "val": "value2",
+                  "offset": 133
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_create_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "response will contain a new credential Id",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_a_new_credential_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "response must have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_must_have_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:10.954Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Get Api Credentials",
+        "description": "",
+        "id": "api-credentials;get-api-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "request is sent to get an existing api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_get_an_existing_api_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "response will contain Id and validate data type of all fields of api credential",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_id_and_validate_data_type_of_all_fields_of_api_credential()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "status code must be 200",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.status_code_must_be_200()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:11.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Get a list of Api Credentials",
+        "description": "",
+        "id": "api-credentials;get-a-list-of-api-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 267000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "request is sent to get a list of api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_get_a_list_of_api_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "response will contain a list of credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_will_contain_a_list_of_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "a list of credentials response status code will be 200",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.a_list_of_credentialsresponse_status_code_will_be_200()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "id and name of each credential must be unique",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.id_and_name_of_each_credential_must_be_unique()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:11.809Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "update Api Credentials",
+        "description": "",
+        "id": "api-credentials;update-api-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "request is sent to update Api credentials with webhook50000, credentials, oAuth2, https, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook50000",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 61
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 74
+                },
+                {
+                  "val": "https",
+                  "offset": 82
+                },
+                {
+                  "val": "post",
+                  "offset": 89
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 95
+                },
+                {
+                  "val": "name1",
+                  "offset": 112
+                },
+                {
+                  "val": "value1",
+                  "offset": 119
+                },
+                {
+                  "val": "name2",
+                  "offset": 127
+                },
+                {
+                  "val": "value2",
+                  "offset": 137
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_update_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "response body will have 200 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_body_will_have_statuscode_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:12.107Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "update Api Credentials",
+        "description": "",
+        "id": "api-credentials;update-api-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "request is sent to update Api credentials with Test2.4, credentials, oAuth2, https, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test2.4",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 56
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 69
+                },
+                {
+                  "val": "https",
+                  "offset": 77
+                },
+                {
+                  "val": "post",
+                  "offset": 84
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 90
+                },
+                {
+                  "val": "name1",
+                  "offset": 107
+                },
+                {
+                  "val": "value1",
+                  "offset": 114
+                },
+                {
+                  "val": "name2",
+                  "offset": 122
+                },
+                {
+                  "val": "value2",
+                  "offset": 132
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_update_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "response body will have 409 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "409",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_body_will_have_statuscode_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:12.397Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "update Api Credentials",
+        "description": "",
+        "id": "api-credentials;update-api-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "request is sent to update Api credentials with webhook2, credentials, oAuth1, https, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook2",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth1",
+                  "offset": 70
+                },
+                {
+                  "val": "https",
+                  "offset": 78
+                },
+                {
+                  "val": "post",
+                  "offset": 85
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 91
+                },
+                {
+                  "val": "name1",
+                  "offset": 108
+                },
+                {
+                  "val": "value1",
+                  "offset": 115
+                },
+                {
+                  "val": "name2",
+                  "offset": 123
+                },
+                {
+                  "val": "value2",
+                  "offset": 133
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_update_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "response body will have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_body_will_have_statuscode_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:12.686Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "update Api Credentials",
+        "description": "",
+        "id": "api-credentials;update-api-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 260000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "request is sent to update Api credentials with webhook1, credentials, oAuth2, http, post, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook1",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 70
+                },
+                {
+                  "val": "http",
+                  "offset": 78
+                },
+                {
+                  "val": "post",
+                  "offset": 84
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 90
+                },
+                {
+                  "val": "name1",
+                  "offset": 107
+                },
+                {
+                  "val": "value1",
+                  "offset": 114
+                },
+                {
+                  "val": "name2",
+                  "offset": 122
+                },
+                {
+                  "val": "value2",
+                  "offset": 132
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_update_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "response body will have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_body_will_have_statuscode_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:12.989Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "update Api Credentials",
+        "description": "",
+        "id": "api-credentials;update-api-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "request is sent to update Api credentials with webhook1, credentials, oAuth2, https, put, applicationJSON, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook1",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 70
+                },
+                {
+                  "val": "https",
+                  "offset": 78
+                },
+                {
+                  "val": "put",
+                  "offset": 85
+                },
+                {
+                  "val": "applicationJSON",
+                  "offset": 90
+                },
+                {
+                  "val": "name1",
+                  "offset": 107
+                },
+                {
+                  "val": "value1",
+                  "offset": 114
+                },
+                {
+                  "val": "name2",
+                  "offset": 122
+                },
+                {
+                  "val": "value2",
+                  "offset": 132
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_update_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "response body will have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_body_will_have_statuscode_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "v6 oAuth2 token is generated for Api credentials",
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.v6_oauth2_token_is_generated_for_api_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T14:19:13.245Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.BatchRewardPromotions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.FixedPointPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BatchPromotions.RecurringInteractionBonusPromotion_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BusinessUnit_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ChoiceRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Clubs_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Countries_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.ForcedRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GiftCardRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.GroupRuleOptions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.InternalRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.KLS_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.locations_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.RecurringRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Regions_Stepdefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_point_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.enrollmentBonusPromotion_rewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionBonusPromotions_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_FixedPoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductBonusPromotion_PercentagePoints_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsPercentageTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_PointsTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardThreshold_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.TransactionPromotions.TransactionProductQuantityBonusPromotions_RewardTiered_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.variableRewards_StepDefs.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.setup()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "update Api Credentials",
+        "description": "",
+        "id": "api-credentials;update-api-credentials;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 228000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "request is sent to update Api credentials with webhook1, credentials, oAuth2, https, post, applicationTEXT, name1, value1, name2 and value2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webhook1",
+                  "offset": 47
+                },
+                {
+                  "val": "credentials",
+                  "offset": 57
+                },
+                {
+                  "val": "oAuth2",
+                  "offset": 70
+                },
+                {
+                  "val": "https",
+                  "offset": 78
+                },
+                {
+                  "val": "post",
+                  "offset": 85
+                },
+                {
+                  "val": "applicationTEXT",
+                  "offset": 91
+                },
+                {
+                  "val": "name1",
+                  "offset": 108
+                },
+                {
+                  "val": "value1",
+                  "offset": 115
+                },
+                {
+                  "val": "name2",
+                  "offset": 123
+                },
+                {
+                  "val": "value2",
+                  "offset": 133
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.request_is_sent_to_update_api_credentials_with_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "response body will have 400 and log any error message if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.WebHooks_ApiCredentials_StepDefs.response_body_will_have_statuscode_and_log_any_error_message_if_exist(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "API Credentials",
+    "description": "",
+    "id": "api-credentials",
+    "keyword": "Feature",
+    "uri": "file:features/WebHooks_ApiCredentials.feature",
+    "tags": []
+  }
+]

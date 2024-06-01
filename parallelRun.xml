@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_NAME" parallel="classes">
+    <test name="TEST_NAME" thread-count="7">
+        <classes>
+
+                          <class name="runner.Offers_Runner"></class>
+                          <class name="runner.Promotions_Runner"></class>
+                          
+            <class name="runner.Regression_Runner"></class>
+
+        </classes>
+    </test>
+
+</suite>
+
